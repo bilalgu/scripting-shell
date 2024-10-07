@@ -37,7 +37,7 @@ Ensuite, insérez la ligne de commande à la fin du fichier pour définir les pa
 
 ## Exemple
 
-
+![Exemple](exemple.png)
 
 
 ## Explication
