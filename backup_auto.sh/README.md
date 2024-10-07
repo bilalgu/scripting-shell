@@ -5,7 +5,7 @@ Ce script shell a été développé à la suite de la lecture du livre _"Ubuntu 
 
 ## Contexte
 
-Le script répond à un exercice du livre qui demande de "mettre au point un shellscript de sauvegarde quotidienne d’un répertoire donné, conservant 7 jours d’historique. Le fichier résultat doit être compressé et la sauvegarde doit être lancée chaque jour à 19h." 
+Le script répond à un exercice du livre qui demande de "Mettre au point un shellscript de sauvegarde quotidienne d’un répertoire donné, conservant 7 jours d’historique. Le fichier résultat doit être compressé et la sauvegarde doit être lancée chaque jour à 19h." 
 
 
 ## Script
