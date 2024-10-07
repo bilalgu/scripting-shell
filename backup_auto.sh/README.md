@@ -45,7 +45,7 @@ Ensuite, insérez la ligne de commande à la fin du fichier pour définir les pa
 tar -cvzf "/tmp/$(echo $1 | tr '/' '_').tgz" $1
 ```
 
-La première ligne indique quel shell utiliser grâce au shebang (`#!`
+La première ligne indique quel shell utiliser grâce au shebang (`#!`)
 
 La deuxième ligne vérifie que :
 
