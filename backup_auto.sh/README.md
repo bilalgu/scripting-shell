@@ -52,7 +52,7 @@ La deuxième ligne vérifie que :
 - Le nombre d'arguments (`$#`) est égal à 1 ET que le paramètre fourni est lisible.
 - Sinon, elle affiche un message d'erreur et termine le script avec un code de sortie de 1.
 
-Et la commande `tar` crée une archive compressée dans `/tmp`, en remplaçant les barres obliques (`/`) dans le nom du répertoire par des underscores (`_`) et en ajoutant l'extension `.tgz`.
+Et la commande `tar` crée une archive compressée dans `/tmp`, en remplaçant (commande `tr`) les barres obliques (`/`) dans le nom du répertoire par des underscores (`_`) et en ajoutant l'extension `.tgz`.
 
 `0 19 * * * /home/bilal/bin/backup_auto.sh /home/bilal`
 
