@@ -35,11 +35,6 @@ Ensuite, insérez la ligne de commande à la fin du fichier pour définir les pa
 *(`/home/bilal` est un répertoire arbitraire pris pour l'exemple)*
 
 
-## Exemple
-
-![Exemple](exemple.png)
-
-
 ## Explication
 
 ```
@@ -57,4 +52,8 @@ La deuxième ligne vérifie que :
 - Le nombre d'arguments (`$#`) est égal à 1 ET que le paramètre fourni est lisible.
 - Sinon, elle affiche un message d'erreur et termine le script avec un code de sortie de 1.
 
+
+## Exemple
+
+![Exemple](exemple.png)
 Et la commande `tar` crée une archive compressée dans `/tmp`, en remplaçant les barres obliques (`/`) dans le nom du répertoire par des underscores (`_`) et en ajoutant l'extension `.tgz`.
