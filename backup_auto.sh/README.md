@@ -54,6 +54,19 @@ La deuxième ligne vérifie que :
 
 Et la commande `tar` crée une archive compressée dans `/tmp`, en remplaçant les barres obliques (`/`) dans le nom du répertoire par des underscores (`_`) et en ajoutant l'extension `.tgz`.
 
+`0 19 * * * /home/bilal/bin/backup_auto.sh /home/bilal`
+
+Cette ligne dans la crontab est composée de six champs et est interprétée de la manière suivante :
+
+- Minutes : `0`
+- Heures : `19`
+- Jours du mois : `*` *(par défaut, toute la période)*
+- Mois : `*`
+- Jours de la semaine : `*`
+- Commande : `/home/bilal/bin/backup_auto.sh /home/bilal`
+
+Ainsi, la commande lance une sauvegarde quotidienne, tous les jours à 19h, sans restriction sur le jour du mois, le mois ou le jour de la semaine.
+
 
 ## Exemple
 
