@@ -32,7 +32,7 @@ crontab -u bilal -e
 
 Ensuite, insérez la ligne de commande à la fin du fichier pour définir les paramètres de sauvegarde souhaitée.
 
-```bash
+```
 0 19 * * * /home/bilal/bin/backup_auto.sh /home/bilal
 ```
 
@@ -58,7 +58,7 @@ La deuxième ligne vérifie que :
 
 Et la commande `tar` crée une archive compressée dans `/tmp`, en remplaçant (commande `tr`) les barres obliques (`/`) dans le nom du répertoire par des underscores (`_`) et en ajoutant l'extension `.tgz`.
 
-```bash
+```
 0 19 * * * /home/bilal/bin/backup_auto.sh /home/bilal
 ```
 
