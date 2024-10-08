@@ -1,6 +1,5 @@
 # Script pour sauvegarde quotidienne automatisée
 
-
 Ce script shell a été développé à la suite de la lecture du livre _"Ubuntu - Administration d'un système Linux"_ des éditions ENI. Il permet d'automatiser la sauvegarde d’un répertoire donné, en conservant un historique de 7 jours. Les fichiers de sauvegarde sont compressés au format `.tgz`.
 
 
